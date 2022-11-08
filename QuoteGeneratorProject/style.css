@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    background: url(https://img.freepik.com/free-photo/black-concrete-wall_24972-1046.jpg?w=740&t=st=1667895374~exp=1667895974~hmac=05eac224bfaf9adb01bbd8be3240618898d56ec2c41269eae3fbc38bf7c49cce) repeat center center/ cover;
+}
+
+.container{
+    width: 100rem;
+    height: 10rem;
+}
+.header{
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
+    border: solid 2px whitesmoke;
+    color: #fff;
+    background-color:rgba(0, 0, 0, 0.534);
+    border-radius: 2rem;
+}
+.main-content{
+    background-color: #fff;
+    height: 15rem;
+    padding: 3rem;
+    margin: 2rem;
+    border-radius: 2rem;
+}
+.text-area{
+    font-size: 1.25rem;
+}
+.author{
+    font-size: 1.5rem;
+    color: crimson;
+    font-weight: bold;
+    padding: .5rem 0;
+    width: 100%;
+}
+button{
+    font-size: 1rem;
+    letter-spacing: 1px;
+    margin-top: 1rem;
+    text-align: center;
+    padding: 1rem;
+    color: wheat;
+    background-color: darkcyan;
+    border: none;
+    border-radius: 0.5rem;
+}
+button:hover{
+    color: black;
+    background-color: darkcyan;
+}
+
